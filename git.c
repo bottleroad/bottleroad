@@ -1,6 +1,23 @@
 ===========
 # 최초 설정
 ===========
+/*
+초기화하지 않고 저장소를 생성할 때의 커맨드라인 안내 메시지도 main으로 초기화하도록 변경되었다. 
+이전에는 git이 알아서 기본으로 master를 기본으로 사용하였지만 main은 그렇지 않기 때문에 
+명시적으로 git branch -M main으로 브랜치를 생성하는 명령어가 추가되었다.
+*/
+echo "# example-repo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:bottleroad/Helloworld.git
+git push -u origin main
+
+
+===========
+# 최초 설정
+===========
 	1. git 계정명 등록
 	  - git config --global user.name 계정명
 	2. git 이메일 등록
