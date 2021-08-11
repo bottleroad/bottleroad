@@ -3,6 +3,8 @@
 ### 개인적인 데이터를 정리하는 공간
 
 
+# ORA-01455 ERROR 
+
 ## Symptoms
 
 Occasionally, when making a GeoMedia Oracle connection to Oracle 12C database, the connection fails with following error message:
